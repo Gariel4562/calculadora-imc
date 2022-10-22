@@ -1,0 +1,38 @@
+#container {
+    background-color: gold;
+    padding:30px;
+    max-width:300px;
+    height:500px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.257);
+    margin:auto;
+
+}
+
+button {
+    background-color: black;
+    color:gold;
+    text-align: center;
+    width:240px;
+    margin-bottom:50px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.235);
+    
+}
+
+input {
+    width:200px;
+
+}
+
+#res {
+    background-color: black;
+    width:300px;
+    height:200px;
+    border-radius: 20px;
+    margin:auto;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.218);
+}

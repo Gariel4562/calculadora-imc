@@ -10,13 +10,22 @@ function imc () {
    let peso = document.getElementById(`peso`).value;
 
 
-   if(nome !== "") {
-    alert (`preenchido`)
-   }
+   if(nome !== "" && altura !== "" && peso !== "") {
+
+
+    const valorIMC = (peso / (altura * altura));
+
+    res.textContent = valorIMC;
 
 
 
-   }
+   } else {
+      res.textContent = `preencha todos os campos`;
+   };
+
+
+
+   };
 
 
 

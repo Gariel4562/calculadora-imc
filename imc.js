@@ -3,7 +3,7 @@ const calcular = document.getElementById(`calcular`);
 
 function imc () {
 
-   const res = document.querySelector(`#res`)
+   const res = document.querySelector(`#res`);
 
    let nome = document.getElementById(`nome`).value;
    let altura = document.getElementById(`altura`).value;
@@ -31,4 +31,4 @@ function imc () {
 
 
 
-calcular.addEventListener(`click`, imc)
+calcular.addEventListener(`click`, imc);

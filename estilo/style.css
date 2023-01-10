@@ -1,7 +1,7 @@
 #container {
     background-color: gold;
     padding:30px;
-    max-width:300px;
+    max-width:400px;
     height:500px;
     border-radius: 20px;
     text-align: center;
@@ -31,7 +31,7 @@ input {
 #res {
     background-color: black;
     color:white;
-    width:300px;
+    width:400px;
     height:200px;
     line-height: 180px;
     border-radius: 20px;

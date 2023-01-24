@@ -25,23 +25,42 @@ function imc () {
 
       classificacao = ` com seu peso ideal`;
 
-    }else if (valorIMC < 30) {
+    } else if (valorIMC < 30) {
 
-      classificacao = `Acima do peso`;
+      classificacao = `Levemente acima do peso`;
 
-    };
+    } else if (valorIMC < 35) {
 
-    res.textContent = `${nome} Tem um IMC de ${valorIMC}, você está ${classificacao} `;
+      classificacao = `Obesidade grau I`;
+
+    }
+    else if (valorIMC < 40) {
+
+      classificacao = `Obesidade Grau II`;
+
+
+   } else {
+
+    classificacao = `Obesidade Grau III`;
+       
+   }
+
+
+    res.innerHTML = `<br><br><br><br><br>${nome} Tem um IMC de ${valorIMC}, você está ${classificacao} `;
 
 
 
    } else {
-      res.textContent = `preencha todos os campos`;
-   };
+      
+     window.alert(`preencha todos os campos`);
+     res.innerHTML = ""
+
+   }
 
 
 
    };
+
 
 
 

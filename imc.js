@@ -47,7 +47,7 @@ function imc () {
 
    if(valorIMC >= 200) {
 
-    window.alert(`Coloque as informações verdadeiros.`);
+    window.alert(`Coloque as informações verdadeiras.`);
     res.innerHTML = "";
 
    } else {

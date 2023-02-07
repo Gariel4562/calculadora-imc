@@ -1,6 +1,14 @@
+body {
+    background-color: lightgray;
+}
+
+
 #container {
     background-color: gold;
-    padding:30px;
+    padding-top:10px;
+    padding-right:30px;
+    padding-left:10px;
+    padding-bottom:10px;
     max-width:400px;
     height:500px;
     border-radius: 20px;
@@ -21,6 +29,10 @@ button {
     border-radius: 5px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.235);
     
+}
+
+button:active {
+    transform: scale(0.95);
 }
 
 input {

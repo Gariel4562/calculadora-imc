@@ -45,10 +45,17 @@ function imc () {
        
    }
 
+   if(valorIMC >= 200) {
+
+    window.alert(`Coloque as informações verdadeiros.`);
+    res.innerHTML = "";
+
+   } else {
+
 
     res.innerHTML = `<br><br><br><br><br>${nome} Tem um IMC de ${valorIMC}, você está ${classificacao} `;
 
-
+}
 
    } else {
       
@@ -58,7 +65,7 @@ function imc () {
    }
 
 
-
+  
    };
 
 
